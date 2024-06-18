@@ -319,16 +319,13 @@ a {
 
 .info-box ul {
   list-style-type: none;
-  /* margin: 0; */
+  
   padding: 0;
 }
 .info-box li {
   padding: 0.25rem;
 }
-/* .social-media{
-    padding: 0;
-    margin: 0;
-} */
+
 
 .social-media ul{
     display: flex;
