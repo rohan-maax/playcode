@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>  
+    <div class="red">
+        <div class="blue">    
+            <div class="title-pic"><img src="title-pic.png" class="pic"></div>
+            <div class="inp-div">
+                <div class="input-group">
+                    <input type="text" class="input" placeholder="What's on your mind....">
+                </div>
+                <div class="addtask">
+                    <button class="addbtn">Add Task</button>
+                </div>
+            </div>
+            <div class="print-div">
+                <h4><img src="check-mark.png" class="check-pic warn"> Added Successfully !!!</h4>
+                
+            </div>
+        </div>
+        <div class="yellow">
+            <div class="ul-div">
+                <ul class="ul" type="none">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <template id="li-template">
+        <li class="firstli">
+            <input type="checkbox" class="checkbox">
+            <span class="task-text"></span>
+            <div class="list-div">
+                <div class="edit-div"><img src="edit-64.png" class="edit"></div>
+                <div class="dlt-div"><img src="delete-64.png" class="dlt"></div>
+            </div>
+        </li>
+    </template>
+    <script src="todo.js"></script>
+</body>
+</html>
