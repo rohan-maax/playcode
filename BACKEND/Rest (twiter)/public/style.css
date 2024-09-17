@@ -1,0 +1,252 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  background-color: rgb(245, 244, 241);
+
+  height: 100%;
+  display: inline-flex;
+
+  flex-direction: column;
+  width: 100%;
+}
+
+.middle-up {
+  background-color: rgb(15, 15, 15);
+  height: 10vh;
+  width: 100%;
+  border-radius: 10px;
+  margin: 1px;
+  font-weight: 700;
+}
+.middle-down {
+  background-color: rgba(78, 78, 77, 0.582);
+  height: 90vh;
+  width: 100%;
+  border-radius: 10px;
+  margin: 1px;
+
+  overflow: scroll;
+}
+.middle-up h1 {
+  color: rgb(240, 243, 239);
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.create-div{
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    color: white;
+}
+.create-div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  border: 1px solid rgba(236, 236, 225, 0.493);
+  background-color: rgba(50, 51, 51, 0.76);
+  margin: 10px;
+  border-radius: 10px;
+  height: 250px;
+  width: 70%;
+}
+
+.username {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.493);
+  background-color: rgba(94, 92, 92, 0.247);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin: 1%;
+  height: 25%;
+}
+.username p {
+  display: flex;
+  text-align: center;
+}
+.content-div {
+  margin: 1%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-div {
+  margin: 1%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  margin-right: 10px;
+
+  height: 15%;
+}
+.edit-div a {
+  text-decoration: none;
+  color: white;
+}
+.edit-div button {
+  margin-right: 5%;
+  font-weight: 600;
+  color: rgb(12, 12, 12);
+}
+
+.post h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1%;
+font-weight: 700;
+  margin-left: 1%;
+  color: rgb(247, 201, 50);
+}
+
+.user {
+  font-style: oblique;
+}
+
+
+/* edit.ejs*/
+
+.div-edit-main{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.center-edit{
+    width: 50vw;
+    height: 70vh;
+background-color: antiquewhite;
+position: relative;
+top: 100px;
+left: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+border-radius: 10px;
+border: 1px solid rgb(170, 160, 160);
+padding: 1%;
+color: beige;
+background-color: rgba(63, 61, 61, 0.384);
+
+}
+.center-edit h2{
+    width: 100%;
+border-radius: 15px;
+color: aqua;
+border: 1px solid rgb(240, 215, 215);
+background-color: rgb(99, 101, 102);
+font-weight: 700;
+height: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.center-edit p{
+    width: 100%;
+border-radius: 15px;
+color: rgb(241, 238, 238);
+
+
+height: 8%;
+display: flex;
+justify-content:flex-start;
+align-items: center;
+margin-left: 2%;
+}
+
+.center-edit p>b{
+    text-decoration: underline;
+    color: aqua;
+    padding: 2px;
+}
+.center-edit form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center-edit form>textarea{
+
+font-size: 25px;
+text-align: center;
+border-radius: 10px;
+padding: 5px;
+
+}
+
+.center-edit form>button{
+    width: 40%;
+    margin-top: 4px;
+}
+
+
+/* see in dtails*/
+
+.div-show-main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(211, 212, 209);
+}
+
+.div-show-main textarea{
+    font-size: 25px;
+text-align: center;
+border-radius: 10px;
+padding: 5px;
+}
+
+/* create post*/
+
+.center-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.center-edit button{
+    margin-right: 5%;
+    font-weight: 600;
+    color: white;
+    padding: 2%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-edit input{
+    height: 15%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 25px;
+}
+.center-edit textarea{
+    height: 45%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 25px;
+
+}
